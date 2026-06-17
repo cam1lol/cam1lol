@@ -198,7 +198,7 @@ Sistema de gestión de usuarios con **autenticación JWT**, roles y permisos, ar
 
 <div align="center">
 
-[![LinkedIn](https://www.linkedin.com/in/camilo1/?locale=en)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/camilo1)
 [![Email](https://img.shields.io/badge/Email-B85C38?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kmilo023@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-534AB7?style=for-the-badge&logo=vercel&logoColor=white)](https://cv-cami.vercel.app/)
 
