@@ -1,11 +1,13 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Instrument+Serif&weight=400&size=28&pause=1600&color=B85C38&center=true&vCenter=true&width=560&lines=Full+Stack+Developer;Angular+%2B+Three.js+%2B+Spring+Boot;3D+Web+%E2%80%94+Bogot%C3%A1%2C+Colombia;Founder+%40+Velamentum" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=B85C38&height=120&section=header&animation=fadeIn" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Instrument+Serif&weight=400&size=32&pause=1800&color=B85C38&center=true&vCenter=true&width=620&lines=Full+Stack+Developer;Angular+%C2%B7+Three.js+%C2%B7+Spring+Boot;3D+Web+%E2%80%94+Bogot%C3%A1%2C+Colombia;Founder+%40+Velamentum" alt="Typing SVG" />
 
 <br/>
 
 ```
-Angular · TypeScript · Java · Node.js · Three.js · Blender · AWS
+Angular · TypeScript · Java · Spring Boot · Node.js · Three.js · Blender · AWS
 ```
 
 <br/>
@@ -39,26 +41,70 @@ Paralelamente fundé **Velamentum**, una marca de ropa donde cada prenda es un m
 
 ## Proyectos
 
-**ThomasVote**
-Plataforma electoral con 6 módulos: dashboard, boletines, control de calidad, candidatos, auditoría y RBAC. Angular 17 con Signals y standalone components. Pipeline CI/CD en Azure DevOps.
-`Angular 17` `Azure DevOps` `Signals` `RBAC`
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+### ThomasVote
 
-**Monitor de Archivos**
-Dashboard en tiempo real para trazabilidad de archivos electorales críticos. WebSockets con AWS AppSync, interceptores HTTP y subscripciones reactivas.
-`Angular 21` `AWS AppSync` `WebSockets` `TypeScript`
+<img src="https://img.shields.io/badge/Estado-Entregado-22c55e?style=flat-square"/>
 
----
+Plataforma electoral modular con **6 módulos independientes**: dashboard principal, gestión de boletines, control de calidad, candidatos, auditoría y control de acceso por roles (RBAC). Arquitectura Angular 17 con Signals y standalone components desde cero. Desplegado en producción con pipeline CI/CD en Azure DevOps.
 
-**ClothingProject — Velamentum**
-Landing 3D interactiva donde el usuario rota, acerca y explora cada prenda en el navegador. Modelos GLB exportados desde Blender, renderizados con Three.js sobre Angular.
-`Three.js` `Blender 5.1` `GLB/GLTF` `Angular`
+![Angular](https://img.shields.io/badge/Angular_17-DD1B16?style=flat-square&logo=angular&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Signals](https://img.shields.io/badge/Angular_Signals-DD1B16?style=flat-square&logo=angular&logoColor=white)
 
----
+</td>
+<td width="50%" valign="top">
 
-**OmniConnect** *(en construcción)*
-SaaS B2B multicanal para desplegar agentes conversacionales en WhatsApp, Instagram, Telegram y correo desde un solo panel. Flow builder no-code, IA integrada con GPT + Langchain, CRM, analytics y arquitectura multi-tenant.
+### Monitor de Archivos
+
+<img src="https://img.shields.io/badge/Estado-Entregado-22c55e?style=flat-square"/>
+
+Dashboard en **tiempo real** para trazabilidad de archivos electorales críticos. Subscripciones reactivas con AWS AppSync WebSockets, URLs firmadas con S3, interceptores HTTP y patrones de autenticación avanzados. Desarrollado sobre rama `feature/#68054` con flujo de revisión en Azure DevOps.
+
+![Angular](https://img.shields.io/badge/Angular_21-DD1B16?style=flat-square&logo=angular&logoColor=white)
+![AWS AppSync](https://img.shields.io/badge/AWS_AppSync-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-534AB7?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ClothingProject — Velamentum
+
+<img src="https://img.shields.io/badge/Estado-En_desarrollo-B85C38?style=flat-square"/>
+
+Landing **3D interactiva** para Velamentum. El usuario rota, acerca y explora cada prenda directamente desde el navegador — sin apps, sin plugins. Modelos diseñados en Blender 5.1, exportados en GLB y renderizados en tiempo real con Three.js sobre Angular. El pipeline completo va desde la malla 3D hasta la web.
+
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender_5.1-F5792A?style=flat-square&logo=blender&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD1B16?style=flat-square&logo=angular&logoColor=white)
+![GLB](https://img.shields.io/badge/GLB/GLTF-B85C38?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### OmniConnect
+
+<img src="https://img.shields.io/badge/Estado-En_construcción-534AB7?style=flat-square"/>
+
+SaaS B2B multicanal para desplegar agentes conversacionales en WhatsApp, Instagram, Telegram y correo desde un solo panel. Flow builder no-code, IA con GPT-4o + Langchain, análisis de sentimiento, CRM integrado y arquitectura multi-tenant lista para licenciar.
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD1B16?style=flat-square&logo=angular&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+<details>
+<summary>Ver módulos del sistema</summary>
+<br/>
 
 | Módulo | Estado |
 |---|---|
@@ -69,19 +115,41 @@ SaaS B2B multicanal para desplegar agentes conversacionales en WhatsApp, Instagr
 | Analytics por canal | Planificado |
 | Panel multi-tenant | Planificado |
 
-`Node.js` `Python` `Angular` `PostgreSQL` `AWS Lambda` `Docker`
+</details>
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**ChatBot API**
-Bot conversacional con manejo de contexto, integración de APIs externas y respuestas inteligentes por canal. Base del módulo MVP de OmniConnect.
-`Python` `FastAPI` `NLP` `Webhooks`
+### ChatBot API
 
----
+<img src="https://img.shields.io/badge/Estado-Entregado-22c55e?style=flat-square"/>
 
-**CRUD Usuarios**
-Sistema de autenticación JWT con gestión de roles y permisos, arquitectura limpia y endpoints REST documentados.
-`TypeScript` `JWT` `Node.js` `REST API`
+Bot conversacional con manejo de contexto multi-turno, integración de APIs externas y respuestas inteligentes por canal. Base del módulo de IA conversacional de OmniConnect. Lógica de enrutamiento por intención y fallback a agente humano.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-534AB7?style=flat-square)
+![Webhooks](https://img.shields.io/badge/Webhooks-444441?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### Control Panel Analytics
+
+<img src="https://img.shields.io/badge/Estado-Entregado-22c55e?style=flat-square"/>
+
+Panel de control con KPIs en tiempo real, gráficos interactivos y sistema de filtros dinámicos por período. Arquitectura modular con separación de responsabilidades y consumo de REST APIs. Enfocado en legibilidad de datos y rendimiento de renderizado.
+
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD1B16?style=flat-square&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-444441?style=flat-square)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -89,16 +157,25 @@ Sistema de autenticación JWT con gestión de roles y permisos, arquitectura lim
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cam1lol&show_icons=true&hide_border=true&title_color=B85C38&icon_color=534AB7&text_color=444441&bg_color=ffffff)
+<img src="https://github-readme-stats.vercel.app/api?username=cam1lol&show_icons=true&hide_border=true&title_color=B85C38&icon_color=534AB7&text_color=444441&bg_color=ffffff" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cam1lol&layout=compact&hide_border=true&title_color=B85C38&text_color=444441&bg_color=ffffff" height="160"/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cam1lol&layout=compact&hide_border=true&title_color=B85C38&text_color=444441&bg_color=ffffff)
+<br/>
 
-![Streak](https://streak-stats.demolab.com?user=cam1lol&hide_border=true&ring=B85C38&fire=534AB7&currStreakLabel=B85C38)
+<img src="https://streak-stats.demolab.com?user=cam1lol&hide_border=true&ring=B85C38&fire=534AB7&currStreakLabel=B85C38&background=ffffff" height="140"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cam1lol&bg_color=ffffff&color=444441&line=B85C38&point=534AB7&hide_border=true" width="95%"/>
 
 </div>
 
 ---
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=B85C38&height=100&section=footer&animation=fadeIn" width="100%"/>
+
 <sub>Bogotá, Colombia · Disponible para roles remotos e híbridos · Full Stack · IA · SaaS</sub>
+
 </div>
