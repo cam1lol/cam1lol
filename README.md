@@ -39,7 +39,7 @@ Paralelamente fundé **Velamentum**, una marca de ropa donde cada prenda es un m
 
 ---
 
-## Proyectos
+## Proyectos terminados
 
 <table>
 <tr>
@@ -72,6 +72,43 @@ Dashboard en **tiempo real** para trazabilidad de archivos electorales críticos
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### ChatBot API
+
+<img src="https://img.shields.io/badge/Estado-Entregado-22c55e?style=flat-square"/>
+
+Bot conversacional con manejo de contexto multi-turno, integración de APIs externas y respuestas inteligentes por canal. Base del módulo de IA conversacional de OmniConnect. Lógica de enrutamiento por intención y fallback a agente humano.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-534AB7?style=flat-square)
+![Webhooks](https://img.shields.io/badge/Webhooks-444441?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### Control Panel Analytics
+
+<img src="https://img.shields.io/badge/Estado-Entregado-22c55e?style=flat-square"/>
+
+Panel de control con KPIs en tiempo real, gráficos interactivos y sistema de filtros dinámicos por período. Arquitectura modular con separación de responsabilidades y consumo de REST APIs. Enfocado en legibilidad de datos y rendimiento de renderizado.
+
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD1B16?style=flat-square&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-444441?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+---
+
+## En construcción
+
+<table>
 <tr>
 <td width="50%" valign="top">
 
@@ -116,36 +153,6 @@ SaaS B2B multicanal para desplegar agentes conversacionales en WhatsApp, Instagr
 | Panel multi-tenant | Planificado |
 
 </details>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ChatBot API
-
-<img src="https://img.shields.io/badge/Estado-Entregado-22c55e?style=flat-square"/>
-
-Bot conversacional con manejo de contexto multi-turno, integración de APIs externas y respuestas inteligentes por canal. Base del módulo de IA conversacional de OmniConnect. Lógica de enrutamiento por intención y fallback a agente humano.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-534AB7?style=flat-square)
-![Webhooks](https://img.shields.io/badge/Webhooks-444441?style=flat-square)
-
-</td>
-<td width="50%" valign="top">
-
-### Control Panel Analytics
-
-<img src="https://img.shields.io/badge/Estado-Entregado-22c55e?style=flat-square"/>
-
-Panel de control con KPIs en tiempo real, gráficos interactivos y sistema de filtros dinámicos por período. Arquitectura modular con separación de responsabilidades y consumo de REST APIs. Enfocado en legibilidad de datos y rendimiento de renderizado.
-
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD1B16?style=flat-square&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-444441?style=flat-square)
 
 </td>
 </tr>
